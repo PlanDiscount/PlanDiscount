@@ -207,7 +207,7 @@
                 <!-- .summary --  <div class="product-share"> <a><img src="static/picture/pro-img1.gif" alt="餐厅家具尺寸"></a> <a><img src="static/picture/pro-img2.gif" alt="餐厅家具尺寸"></a> <a><img src="static/picture/pro-img3.gif" alt="餐厅家具尺寸"></a> </div> <!-- .summary --> 
               </div>
               <div class="info_product_btn">
-                <a class="btn-success" rel="nofollow" href="https://connect.facebook.net/zh_CN/sdk/xfbml.customerchat.js">在线咨询</a>
+                <a class="btn-success" rel="nofollow" href="#fb">在线咨询</a>
                 <a class="btn-danger" >微信客服：plandiscount </a></div>
               <div style="clear:both;"></div>
             </div>
@@ -410,12 +410,14 @@
 </body>
 </html>
 
+<section class="facebook" id="fb">
 <!-- Messenger Chat Plugin Code -->
-<div id="fb-root"></div>
+  <div id="fb-root"></div>
 
 <!-- Your Chat Plugin code -->
-<div id="fb-customer-chat" class="fb-customerchat">
-</div>
+  <div id="fb-customer-chat" class="fb-customerchat"></div>
+  
+</section>
 
 <script>
   var chatbox = document.getElementById('fb-customer-chat');
